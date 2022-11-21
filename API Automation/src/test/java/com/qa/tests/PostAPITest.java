@@ -45,7 +45,8 @@ public class PostAPITest extends TestBase{
 		HashMap<String, String> headerMap = new HashMap<String, String>();
 		headerMap.put("Content-Type", "application/json");
 		
-		//jackson API:
+		//jackson API: Convert Java to JSon /Json to Java
+		
 		ObjectMapper mapper = new ObjectMapper();
 		Users users = new Users("morpheus", "leader"); //expected users obejct
 		

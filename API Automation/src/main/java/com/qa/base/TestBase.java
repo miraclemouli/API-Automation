@@ -7,6 +7,8 @@ import java.util.Properties;
 
 public class TestBase {
 	
+	//Parent Class for All the Vase Class
+	
 	public int RESPONSE_STATUS_CODE_200 = 200;
 	public int RESPONSE_STATUS_CODE_500 = 500;
 	public int RESPONSE_STATUS_CODE_400 = 400;
